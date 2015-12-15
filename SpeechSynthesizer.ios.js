@@ -4,7 +4,9 @@
  */
 'use strict';
 
-var NativeSpeechSynthesizer = require('NativeModules').SpeechSynthesizer;
+var React = require('react-native');
+var { NativeModules } = React;
+var NativeSpeechSynthesizer = NativeModules.SpeechSynthesizer;
 var invariant = require('invariant');
 
 /**
